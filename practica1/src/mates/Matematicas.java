@@ -1,7 +1,17 @@
 package mates;
 import java.util.Random;
-
+/**
+ * Clase que contiene metodos matematicos para realizar calculo para aproximar el numero Pi.
+ *
+ * @author Genesis Chicaiza
+ */
 public class Matematicas{
+    /**
+     * Genera una aproximación del numero Pi utilizando el metodo Monte Carlo.
+     *
+     * @param pasos: La cantidad de pasos para el calculo.
+     * @return Aproximación del numero Pi.
+     */
 
     public static double generarNumeroPiIterativo(long pasos){
         long puntos = 0;
